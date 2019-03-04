@@ -6,18 +6,61 @@ public class HelloWorld
   // arguments are passed using the text field below this editor
   public static void main(String[] args)
   {
-    int n = H.hasard();
-      System.out.print(n);
+    H h = new H(0,5,3);
+    int [] n = h.hasard();
+    for (int i=0; i<3; i++){
+      System.out.print(n[i]+ " ");}
   }
 
 }
 
 public class H{
+  
+  private int min;
+  private int max;
+  private int nombre;
+  
+    public H(int min, int max, int nombre){
+  	this.setMin(min);
+    this.setMax(max);
+    this.setNombre(nombre);
+  }
 
-  public static int hasard(){
-    double n=Math.random() * ( 3)+1;
+  public void setNombre(int nombre){
+  	this.nombre=nombre;
+  }
+  
+  public void setMin(int min){
+  	this.min=min;
+  }
+
+  public void setMax(int max){
+  	this.max=max;
+  }  
+  
+  public int getNombre(){
+  	return this.nombre;
+  }
+  
+  public int getMin(){
+  	return this.min;
+  }
+  
+  public int getMax(){
+  	return this.max;
+  }
+  
+  public int [] setTable(int taille){
+    int[] t= new int[taille];
+    return t;}
+  
+    public int [] hasard(){
+    int[] t=setTable(this.getNombre());
+    for(int i=0; i<this.getNombre(); i++){
+ double n=Math.random() * (this.getMax())+this.getMin();
     int r = (int) n;
-    return r;
+      t[i]=r;}
+    return t;
   }
 
 }
