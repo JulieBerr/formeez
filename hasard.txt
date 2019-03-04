@@ -8,8 +8,9 @@ public class HelloWorld
   {
     H h = new H(0,5,3);
     int [] n = h.hasard();
-    for (int i=0; i<3; i++){
+    for (int i=0; i<h.getNombre(); i++){
       System.out.print(n[i]+ " ");}
+   	Test.TestH();
   }
 
 }
@@ -63,4 +64,18 @@ public class H{
     return t;
   }
 
+}
+
+public class Test {
+
+  public static void TestH(){
+  	H h = new H(0,5,3);
+    int [] n = h.hasard();
+    for (int i=0; i<h.getNombre(); i++){
+      if (n[i]<h.getMin() & n[i]>h.getMax()){
+      	 System.out.print("Test faux!");
+      }
+    }   
+  }
+  
 }
