@@ -6,7 +6,7 @@ package="com.commonsware.android.search">
     android:label="@string/app_name" >
 
     <activity
-      android:name=".ManifestActivity"
+      android:name=".MainActivity"
       android:label="@string/app_name" >
 
       <intent-filter>
@@ -16,6 +16,25 @@ package="com.commonsware.android.search">
       </intent-filter>
 
     </activity>
+
+ <activity
+            android:name=".Dessin"
+            android:parentActivityName=".MainActivity" />
+
+<activity
+            android:name=".Piano"
+            android:parentActivityName=".MainActivity" />
+
+<activity
+            android:name=".Suite"
+            android:parentActivityName=".MainActivity" />
+
+<activity
+            android:name=".CarreCercleTriangle"
+            android:parentActivityName=".MainActivity" />
+<activity
+            android:name=".Quizz"
+            android:parentActivityName=".MainActivity" />
 
   </application>
 
