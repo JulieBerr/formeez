@@ -6,10 +6,68 @@ android:layout_width="fill_parent"
 android:layout_height="fill_parent">
 
 <TextView
-android:id="@+id/question"
+android:id="@+id/pytha"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
+android:text="AB*AB=AC*AC+CB*CB"
 />
+
+<TextView
+android:id="@+id/droit"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Un triangle peut-il avoir un angle droit?"
+/>
+
+<TextView
+android:id="@+id/TroisCotes"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Le triangle a-t-il 3 cotes ?"
+/>
+
+<TextView
+android:id="@+id/QuattreCotes"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Le rectangle a-t-il 4 cotes ?"
+/>
+
+<TextView
+android:id="@+id/Cercle"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Peut-il avoir un triangle dans un cercle?"
+/>
+
+<TextView
+android:id="@+id/Points"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Un cercle est-il composé de 10 points? "
+/>
+
+<TextView
+android:id="@+id/CotesImpairs"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Le nombre de cotes d'un triangle est-il impair ? "
+/>
+
+<TextView
+android:id="@+id/Carre"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Si la largeur=longueur pour un rectangle est un carré? "
+/>
+
+<TextView
+android:id="@+id/rayon"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Un cercle a-t-il un rayon? "
+/>
+
 
 <Button
 android:id="@+id/ok"
