@@ -1,0 +1,30 @@
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+	
+	<ImageButton
+		android:id="@+id/carre"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:src="@drawable/carre"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="100dp" />
+		
+	<ImageButton
+		android:id="@+id/cercle"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:src="@drawable/cercle"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="100dp" />
+		
+	<ImageButton
+		android:id="@+id/triangle"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:src="@drawable/triangle"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="100dp" />
+	
+	</LinearLayout>
