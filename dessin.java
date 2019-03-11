@@ -4,26 +4,25 @@ public class MainActivity extends Activity {
 	protected void onCreate (Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-	}
-
-	public void logo_bouton (View view){
-		startActivity (new Intent (this, page_2.class));
-	}
-	
-	protected void onRestart(){
-		super.onRestart();
-	}
-	
-	protected void onStart() {
-		super.onStart();
-	}
-	
-	protected void onResume() {
-		super.onResume();
-	}
-	
-	protected void onPause(){
-		super.onPause();
+		
+		final ImageButton carre = findViewById(R.id.carre);
+		carre.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				draw(R.carre);
+			}
+			
+		final ImageButton cercle = findViewById(R.id.cercle);
+		carre.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				draw(R.cercle);
+			}
+			
+		final ImageButton triangle = findViewById(R.id.triangle);
+		carre.setOnClickListener(new View.OnClickListener(){
+			public void onClick(View v){
+				playSound(R.triangle);
+			}
+		}
 	}
 	
 	protected void onStop(){
@@ -35,15 +34,4 @@ public class MainActivity extends Activity {
 	}
 }
 
-public class page_2 extends MainActivity{
-	
-	protected void onCreate (Bundle savedInstanceState){
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.page_2);}
-	
-		public void logo_bouton_2 (View view){
-		startActivity (new Intent (this, MainActivity.class));
-	}
-	
-}
 
