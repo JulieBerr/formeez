@@ -3,36 +3,36 @@
 	android:layout_height="wrap_content"
 	android:orientation="horizontal">
 	
-		<ImageButton
-		android:layout_width="1000dp"
-		android:layout_height="1000dp"
-		android:src="@drawable/blanc"
-		android:layout_marginTop="10dp"
-		android:layout_marginLeft="100dp"
-		android:onClick=dessinerForme />
-	
 	<ImageButton
+		android:id="@+id/blanc"
 		android:layout_width="80dp"
 		android:layout_height="80dp"
 		android:src="@drawable/carre"
 		android:layout_marginTop="10dp"
-		android:layout_marginLeft="100dp"
-		android:onClick=MémoriserForme />
+		android:layout_marginLeft="100dp" />
+	
+	<ImageButton
+		android:id="@+id/carre"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:src="@drawable/carre"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="100dp" />
 		
 	<ImageButton
+		android:id="@+id/cercle"
 		android:layout_width="80dp"
 		android:layout_height="80dp"
 		android:src="@drawable/cercle"
 		android:layout_marginTop="10dp"
-		android:layout_marginLeft="100dp"
-		android:onClick=MémoriserForme />
+		android:layout_marginLeft="100dp" />
 		
 	<ImageButton
+		android:id="@+id/triangle"
 		android:layout_width="80dp"
 		android:layout_height="80dp"
 		android:src="@drawable/triangle"
 		android:layout_marginTop="10dp"
-		android:layout_marginLeft="100dp"
-		android:onClick=MémoriserForme />
+		android:layout_marginLeft="100dp" />
 	
 	</LinearLayout>
