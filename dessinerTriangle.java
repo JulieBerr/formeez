@@ -1,3 +1,4 @@
+package CarreTriangleRond;
 Paint p = new Paint();
 p.setStyle(Paint.Style.FILL);
 
