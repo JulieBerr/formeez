@@ -44,7 +44,7 @@ android:text="Peut-il avoir un triangle dans un cercle?"
 android:id="@+id/Points"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
-android:text="Un cercle est-il composé de 10 points? "
+android:text="Un cercle est-il composÃ© de 10 points? "
 />
 
 <TextView
@@ -58,7 +58,7 @@ android:text="Le nombre de cotes d'un triangle est-il impair ? "
 android:id="@+id/Carre"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
-android:text="Si la largeur=longueur pour un rectangle est un carré? "
+android:text="Si la largeur=longueur pour un rectangle est un carrÃ©? "
 />
 
 <TextView
