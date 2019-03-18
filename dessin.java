@@ -1,5 +1,5 @@
 package CarreTriangleRond;
-public class MainActivity extends Activity {
+public class Dessin extends Activity {
 	
 	@Override
 	protected void onCreate (Bundle savedInstanceState){
