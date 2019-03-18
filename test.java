@@ -20,6 +20,7 @@ public class test {
 	assertThat(Dessin.onCreate(bundle).isTrue());
 	assertThat(son.onCreate(bundle).isTrue());
 	assertThat(suite.onCreate(bundle).isTrue());
+	//QUIZZ
     }
 	
 	
