@@ -10,8 +10,13 @@ public class test {
 	    View v=null;
 	    int position=0;
 	    long id=0;
-	assertThat(Accueil.onListItemClick(parent, v, int position, long id).isTrue();
-	    
+	assertThat(Accueil.onListItemClick(parent, v, int position, long id).isTrue());
+	assertThat(CarreCercleTriangle.forme().isTrue());
+	    Context context = null;
+	assertThat(CarreCercleTriangle.DessinerRectangle(context).isTrue());
+	assertThat(CarreCercleTriangle.DessinerOval(context).isTrue());	  
+	assertThat(CarreCercleTriangle.DessinerTriangle(context).isTrue()); 
+	assertThat(CarreCercleTriangle.onDraw(canvas).isTrue());
     }
 	
 	
