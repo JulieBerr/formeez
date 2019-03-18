@@ -11,15 +11,15 @@ private ShapeDrawable drawable;
 
             		case 0:
     
- 	           		DessinerOval();
+ 	           		DessinerOval(context);
 
             		case 1:
                 
-		   		DessinerCercle();
+		   		DessinerCercle(context);
 
             		case 2:
                 
-		   		DessinerTriangle();
+		   		DessinerTriangle(context);
         }
 
   
