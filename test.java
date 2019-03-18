@@ -21,6 +21,12 @@ public class test {
 	assertThat(son.onCreate(bundle).isTrue());
 	assertThat(suite.onCreate(bundle).isTrue());
 	//QUIZZ
+	assertThat(quizz.Main.isTrue());
+	assertThat(Quizz.q.isTrue());
+	int id=0;
+	DialogInterface dialog = null;
+	assertThat(Quizz.OnClick(dialog, id).isTrue());
+	assertThat(Quizz.N().isTrue());
     }
 	
 	
