@@ -18,6 +18,7 @@ public class test {
 	assertThat(CarreCercleTriangle.DessinerTriangle(context).isTrue()); 
 	assertThat(CarreCercleTriangle.onDraw(canvas).isTrue());
 	assertThat(Dessin.onCreate(bundle).isTrue());
+	assertThat(son.onCreate(bundle).isTrue());
     }
 	
 	
